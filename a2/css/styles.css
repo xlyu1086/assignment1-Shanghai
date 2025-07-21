@@ -1,0 +1,312 @@
+/* 
+  Name: Xiang Lyu
+  Student Number: 9031086
+  Assignment 2 - CSS Styling for ShangHai Web Page
+  I will style the page and explain with comments
+*/
+
+/* Set font and background for the whole page */
+html {
+  font: italic small-caps bold 20px/1.6 "Segoe UI", sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Center body and add border and padding */
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 0.2rem solid #999;
+  background-color: white;
+}
+
+/* Make form inputs look same size and nice */
+.form-control {
+  padding: 0.8rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Style for form labels */
+.form-label {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #444;
+  display: inline-block;
+  width: 120px;
+}
+
+/* Add background and space to each section in main */
+#overview,
+#gallery,
+#quote,
+#video {
+  background-color: #fefefe;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+/* Remove bullet and padding for links list */
+aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Make links look nicer and change color on hover etc. */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+a:active {
+  color: red;
+}
+
+/* set font style and bg for html */
+html {
+  font: italic small-caps bold 20px/1.6 "Segoe UI", sans-serif;
+  background-color: #f3f3f3;
+}
+
+/* set max width, center, padding and bg for body */
+body {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  border: 0.2rem solid #aaa;
+  background-color: #fff;
+}
+
+/* style main part of page */
+main {
+  padding: 1.5rem; /* some space inside */
+  float: left; /* float to left side */
+  width: 70%; /* use 70% of the width */
+  box-sizing: border-box; /* so padding doesn’t overflow */
+}
+
+/* style aside area on right */
+aside {
+  padding: 1.5rem;
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+/* make sure footer don't go beside float */
+footer {
+  clear: both;
+}
+
+/* make header bigger and colorful */
+h1 {
+  font-size: 3rem;
+  color: white;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* footer is smaller and has gradient too */
+footer {
+  font-size: 0.9rem;
+  color: #fff;
+  background: linear-gradient(to right, #333, #999);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* style all section headings (h2) */
+h2 {
+  font-family: "Georgia", serif;
+  font-variant: small-caps;
+  font-style: normal;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+/* blockquote styling to make it look different */
+blockquote {
+  font-style: italic;
+  background-color: #f9f9f9; /* light grey */
+  padding: 1.5rem;
+  border-left: 0.5rem solid #ccc;
+  width: 80%; /* not full width, looks better */
+  margin: 2rem auto; /* center it */
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1); /* a bit of shadow */
+}
+
+/* style the figure container */
+figure {
+  border: 0.2rem solid #aaa;
+  border-radius: 0.5rem;
+  background-color: #fefefe;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 90%; /* not too wide */
+  text-align: center;
+}
+
+/* style the image inside figure */
+figure img {
+  display: block;
+  margin: 0 auto;
+  width: 100%; /* full width of figure */
+  border: 0.2rem solid #ddd;
+  border-radius: 0.5rem;
+}
+
+/* caption style under the image */
+figcaption {
+  font-size: 0.9rem;
+  font-variant: small-caps;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+/* make iframe video look better and centered */
+iframe {
+  display: block;
+  margin: 2rem auto;
+  width: 60%; /* width of container */
+  max-width: 80%; /* just in case */
+  border: 0.3rem solid #bbb;
+  border-radius: 0.5rem;
+}
+
+/* quote section to make it look special */
+#quote {
+  border: 0.2rem solid #ccc;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  width: 75%; /* not full width */
+  margin: 2rem auto; /* center it */
+  padding: 1.5rem;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  color: #333;
+}
+
+/* remove bullets and left space from list */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* link styles for all states */
+a:link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #663399;
+}
+
+a:hover {
+  color: #e67e22;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+/* table style full width and spacing */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+/* style for table header */
+th {
+  text-align: left;
+  font-weight: bold;
+  font-variant: small-caps;
+  background-color: #3498db;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* table data cell */
+td {
+  padding: 1rem;
+  border: 0.1rem solid #ccc;
+}
+
+/* zebra rows using even child */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* highlight row on hover */
+tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* style for form labels */
+.form-label {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  width: 8rem; /* make labels same width */
+  margin-bottom: 0.5rem;
+}
+
+/* style for form inputs, textarea, select */
+.form-control {
+  padding: 0.7rem;
+  border: 0.1rem solid #aaa;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;  /* set all padding fit */
+  margin-bottom: 1rem;
+}
+
+/* responsive style for smaller screens */
+@media (max-width: 768px) {
+  html {
+    font-size: 16px; /* smaller font for small screens */
+  }
+
+  main,
+  aside {
+    float: none; /* remove float */
+    width: 100%; /* full width */
+    padding: 1rem;
+  }
+
+  figure,
+  #quote,
+  iframe,
+  form {
+    width: 100%;
+  }
+
+  .form-control {
+    width: 100%; /* make form inputs fit screen */
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+}
+
